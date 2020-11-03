@@ -1,25 +1,25 @@
-'use strict';
+// 'use strict';
 
-let hobby;
+// let hobby;
 
-console.log(hobby);
+// console.log(hobby);
 
-hobby = 'Checkers';
+// hobby = 'Checkers';
 
-console.log(hobby);
+// console.log(hobby);
 
-const isVIP = true;
+// const isVIP = true;
 
-console.log(isVIP);
+// console.log(isVIP);
 
-const type = typeof true;
-alert('Hello');
-console.log(type);
+// const type = typeof true;
+// alert('Hello');
+// console.log(type);
 
-const types = typeof 5;
-console.log(types);
+// const types = typeof 5;
+// console.log(types);
 
-// Були
+// // Були
 
-const massage = 'Welcome to the World!';
-console.log(massage);
+// const massage = 'Welcome to the World!';
+// console.log(massage);

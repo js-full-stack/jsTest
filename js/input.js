@@ -69,3 +69,18 @@
 
 // const result = Math.pow(number, power);
 // console.log(result);
+
+// Возведение в степень, базовый пример
+// const numberInputRef = document.querySelector('.number');
+// const powerInputRef = document.querySelector('input[name="power"]');
+// const buttonRef = document.querySelector('button');
+
+// // описывает методы и привязывает скрипт к разметке
+// buttonRef.addEventListener('click', function () {
+//   console.log('numberInputRef.value: ', numberInputRef.value);
+//   console.log('powerInputRef.value: ', powerInputRef.value);
+
+//   // ограничивает вводимые значения цифрами
+//   const number = Number(numberInputRef.value);
+//   const power = Number(powerInputRef.value);
+// });

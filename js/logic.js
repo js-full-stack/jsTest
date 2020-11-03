@@ -26,6 +26,6 @@
 // console.log('canOpenChat: ', canOpenChat);
 
 // Проверка подписки пользователя при доступе к контенту
-const subscription = 'free';
-const canAccessContant = subscription === 'pro' || subscription === 'vip';
-console.log('canAccessContant: ', canAccessContant);
+// const subscription = 'free';
+// const canAccessContant = subscription === 'pro' || subscription === 'vip';
+// console.log('canAccessContant: ', canAccessContant);
