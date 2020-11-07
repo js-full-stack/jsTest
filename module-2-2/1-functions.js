@@ -66,20 +66,53 @@
 // withdraw(500, 300); // Недостаточно средств на счету.
 // withdraw(100, 300); // Операция снятия средств проведена.
 
-const value = 50;
+// const value = 50;
 
-const add = function (num) {
-  const value = 10;
-  const innerValue = 5;
+// const add = function (num) {
+//   const value = 10;
+//   const innerValue = 5;
 
-  return num + value + innerValue;
+//   return num + value + innerValue;
+// };
+
+// // value объявлен глобально и поэтому доступен
+// console.log(value); // 50
+
+// console.log(add(20)); // 35
+
+// // Ошибка, переменная innerValue не объявлена в этой области
+// // видимости, она доступна только внутри функции add
+// console.log(innerValue);]
+
+// const fn = (a, b, c) => {
+//   return a + b + c;
+// };
+
+// // Если параметр один, то он может быть без круглых скобок.
+// const fn = x => {
+//   return x * 2;
+// };
+
+// // Если параметров нет, то обязательно должны быть пустые круглые скобки.
+// const fn = () => {
+//   console.log('Hello! :]');
+// };
+
+const add = function (a, b) {
+  console.log('a = ', a);
+  console.log('b = ', b);
+
+  const result = a + b;
+
+  return result;
 };
 
-// value объявлен глобально и поэтому доступен
-console.log(value); // 50
+const r1 = add(1, 2);
+console.log(r1);
 
-console.log(add(20)); // 35
+const r2 = add(16, 6);
+console.log(r2);
+r2;
 
-// Ошибка, переменная innerValue не объявлена в этой области
-// видимости, она доступна только внутри фукции add
-console.log(innerValue);
+const r3 = add(60, 40);
+console.log(r3);
