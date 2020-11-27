@@ -178,15 +178,15 @@
 
 // Код Репеты
 
-const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
-const nameToFind = 'Poly';
-let message = 'Друг не найден';
+// const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
+// const nameToFind = 'Poly';
+// let message = 'Друг не найден';
 
-for (const friend of friends) {
-  if (nameToFind === friend) {
-    message = 'Нашли такого друга';
-    continue;
-  }
-}
+// for (const friend of friends) {
+//   if (nameToFind === friend) {
+//     message = 'Нашли такого друга';
+//     continue;
+//   }
+// }
 
-console.log(message);
+// console.log(message);

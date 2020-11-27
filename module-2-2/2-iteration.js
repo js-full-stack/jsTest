@@ -17,9 +17,6 @@
 
 // const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
 // const nameToFind = 'Poly';
-//
-
-// console.log(message);
 
 // Функция для поиска друга
 // const findFriend = function (allFriends, name) {
@@ -28,12 +25,26 @@
 
 //   for (const friend of allFriends) {
 //     if (name === friend) {
-//       // console.log(`Нашли друга ${name}`);
 //       return `Нашли друга ${name}`;
-//       //   break;
 //     }
 //   }
 //   console.log('Друг не найден');
+// };
+
+// const r1 = findFriend(friends, 'Poly');
+// console.log(r1);
+
+// const r2 = findFriend(friends, 'Chelsy');
+// console.log(r2);
+
+// Поиск друга через функцию с методом includes
+// const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
+// const nameToFind = 'Poly';
+
+// const findFriend = function (allFriends, name) {
+//   const isInFriends = allFriends.includes(name);
+
+//   return isInFriends ? `Нашли друга ${name}` : `Друг ${name} не найден`;
 // };
 
 // const r1 = findFriend(friends, 'Poly');
