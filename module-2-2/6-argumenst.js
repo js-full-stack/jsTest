@@ -24,6 +24,64 @@
 //   return total;
 // };
 
+
+let cost;
+const subscription = 'premium';
+
+switch (subscription) {
+  case 'free':
+    cost = 0;
+    break;
+
+  case 'pro':
+    cost = 100;
+    break;
+
+  case 'premium':
+    cost = 500;
+    break;
+
+  default:
+    console.log('Invalid subscription type');
+}
+
+console.log(cost); // 500
+
+
+
+
+
+
+
+
+
+
+function checkPassword(password) {
+  const ADMIN_PASSWORD = 'jqueryismyjam';
+  let message;
+
+  if (password === null) {
+    message = 'Отменено пользователем!';
+  } else if (password === ADMIN_PASSWORD) {
+    message = 'Добро пожаловать!';
+  } else {
+    message = 'Доступ запрещён, неверный пароль!';
+  }
+
+  return message;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 // console.log(add(1, 2, 3));
 // console.log(add(1, 2, 3, 4, 5, 6, 7));
 

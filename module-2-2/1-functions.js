@@ -98,21 +98,21 @@
 //   console.log('Hello! :]');
 // };
 
-const add = function (a, b) {
-  console.log('a = ', a);
-  console.log('b = ', b);
+// const add = function (a, b) {
+//   console.log('a = ', a);
+//   console.log('b = ', b);
 
-  const result = a + b;
+//   const result = a + b;
 
-  return result;
-};
+//   return result;
+// };
 
-const r1 = add(1, 2);
-console.log(r1);
+// const r1 = add(1, 2);
+// console.log(r1);
 
-const r2 = add(16, 6);
-console.log(r2);
-r2;
+// const r2 = add(16, 6);
+// console.log(r2);
+// r2;
 
-const r3 = add(60, 40);
-console.log(r3);
+// const r3 = add(60, 40);
+// console.log(r3);
