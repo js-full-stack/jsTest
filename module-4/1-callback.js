@@ -1,5 +1,6 @@
-// Вызов каллбека со ссылкой на функцию высшего порядка
+// Вызов callback со ссылкой на функцию высшего порядка
 
+// debugger;
 // const greet = function (name) {
 //   console.log(`Hello ${name}`);
 // };
@@ -12,7 +13,7 @@
 
 // greetWithName(greet);
 // ____________________________________________________
-// Функция, которая вызывает консоль лог указанное кол-во раз
+// // Функция, которая вызывает консоль лог указанное кол-во раз
 // for (let i = 1; i < 10; i += 1) {
 //   console.log(i);
 // }
@@ -63,6 +64,7 @@
 // console.log(labels);
 
 // Перебор элементов массива. 1 параметр - массив, 2 - callback// ___________________________________________________
+// debugger;
 const filter = function (array, test) {
   const filteredElements = [];
 
@@ -84,4 +86,5 @@ const fruits = [
 ];
 
 const freshFruits = filter(fruits, fruit => fruit.isFresh);
-console.log(freshFruits); // массив с объектами apples и bananas
+console.log(freshFruits);
+// массив с объектами apples и bananas
