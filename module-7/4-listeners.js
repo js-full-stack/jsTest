@@ -1,9 +1,9 @@
 /* События. Создание и удаление слушателей. 
 Ссылочная идентичность колбеков. 
 Объект события */
-const targetBtnRef = document.querySelector('.js-target-btn');
-const addListenerBtnRef = document.querySelector('.js-add-listener');
-const removeListenerBtnRef = document.querySelector('.js-remove-listener');
+// const targetBtnRef = document.querySelector('.js-target-btn');
+// const addListenerBtnRef = document.querySelector('.js-add-listener');
+// const removeListenerBtnRef = document.querySelector('.js-remove-listener');
 
 // const doStuffOnClick = () => {
 //   console.log('click!!!');
@@ -22,6 +22,4 @@ const removeListenerBtnRef = document.querySelector('.js-remove-listener');
 // // Объект события
 // // .event.target - ссылка на элемент, на котором произошло событие
 
-targetBtnRef.addEventListener('click', event => {
-  console.dir(event.currentTarget);
-});
+//  

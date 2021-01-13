@@ -18,13 +18,14 @@ const images = [
 
 const imagesRef = document.querySelector('#gallery');
 
-const addImagesToGallery = images.map(image => {
-  const listItems = document.createElement('li');
-  listItems.insertAdjacentHTML(
-    'afterbegin',
-    `<img src = ${image.url} height= '250' alt = '${image.alt}'>`,
-  );
-  return listItems;
-});
+const templateMarkup = ({ url, alt }) => {
+  return `<li><img src = ${url} height= '250' alt = '${alt}'><li>`;
+};
 
-imagesRef.append(...addImagesToGallery);
+const addImagesToGallery = images
+  .map(image => {
+    return templateMarkup(image);
+  })
+  .join('');
+
+imagesRef.insertAdjacentHTML('afterbegin', addImagesToGallery);

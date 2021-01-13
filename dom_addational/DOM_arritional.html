@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задачи DOM</title>
+    <link rel="stylesheet" href="/css/additional.css" />
+  </head>
+  <body>
+    <h1>Задачи DOM</h1>
+
+    <h3>Задача-1</h3>
+    <p>Менять фон при клике на кнопку Toggle Color Body</p>
+   
+    <button class="styling-button">Toggle Color Body</button>
+    
+    <p>------------------------------------------------</p>
+    <h3>Задача-2</h3>
+    <p>1.Введенные данные в поле должны сразу же отображаться на странице</p>
+    <p>
+      2.При нажатии на кнопку введенные в input данные должны поменяться на
+      кружки
+    </p>
+    <input type="text" id="id777" />
+
+    <button type="button" data-action="toggleTypeInput">Make do not see</button>
+    <p class="js-text-input"></p>
+
+    <p>------------------------------------------------</p>
+
+    <h3>Задача-3</h3>
+    <p>При вводе в input текст в параграфе должен появляться с задержкой</p>
+
+    <input type="text" id="id888" />
+    <p class="js-text-input-part-2"></p>
+
+    <p>------------------------------------------------</p>
+
+    <h3>Задача-4</h3>
+    <p>
+      Есть массив объектов профилей животных. Нужно: 
+      <ol>
+        <li>Сделать дефолтный импорт массива из файла listCats,</li>
+        <li>Сделать именованый импорт из файла tamplateCats</li>
+        <li>Динамически создать разметку из шаблона</li>
+        <li>Добавить разметку в DOM за одну операцию и вывести на страницу</li>
+      </ol> 
+        </p>
+    <ul class="js-list_cats"></ul>
+
+    <p>------------------------------------------------</p>
+<h3>Задача-5</h3>
+<p>Есть массив профилей котиков. Нужно:</p>
+<ol>
+  <li>Создать разметку</li>
+  <li>Вывести котиков на страницу</li>
+  <li>При клике на кнопку изменить показ фото столбиком и в строку(добавлять и убирать класс listItemColumn)</li>
+  <li>При клике на картинку текст над ней должен увеличиваться</li>
+
+</ol>
+
+
+<button type="button" class ="change-positioning">В ряд</button>
+<ul class="js-list_cats--middle"></ul>
+
+
+<h3>Задача 6</h3>
+<p>Убрать дефолтное поведение формы и собрать данные с заполненных полей через конструктор FormData</p>
+<form class="js-form" >
+  <input type="text" name="fullName" placeholder="fullName">
+  <input type="text" name="age" placeholder="age">
+  <button type="submit">Send</button>
+</form>
+
+<p>------------------------------------------------</p> 
+<form class="js-form-2">
+  <input type="text" name="todo">
+  <button type="submit">Add</button>
+</form>
+  <ul class="list_todo"></ul>
+
+  <h3>Задача 7</h3>
+<p>При нажатии на кнопку данные из инпута должны добавляться на страницу</p>
+
+<!-- <script type="module" src="./1.js"></script>
+    <script type="module" src="./2.js"></script> -->
+    <!-- <script type="module" src="./3.js"></script>  -->
+   <!-- <script type="module" src="./4.js"></script> -->
+
+    <script type="module" src="./5.js"></script>
+    <script type="module" src="./6.js"></script>
+    <script type="module" src="./7.js"></script>
+
+
+  </body>
+</html>

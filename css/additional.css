@@ -1,0 +1,29 @@
+.styling-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: gray;
+  color: orange;
+  font-weight: bold;
+}
+
+.bodyActive {
+  background-color: tomato;
+}
+
+.js-list_cats,
+.js-list_cats--middle {
+  list-style: none;
+}
+
+.js-list_cats li:not(:last-child) {
+  padding-right: 20px;
+}
+
+.listItemColumn {
+  display: flex;
+}
+
+.titleNameActive {
+  font-size: 30px;
+}
